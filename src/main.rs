@@ -47,11 +47,6 @@ impl fmt::Display for Chain {
     }
 }
 
-/**
-TODO: add address hints
-TODO: add address hint search
-TODO: add open explorer for all addresses that match a pattern of a hint
-*/
 fn main() {
     init_project_dir();
     let matches = Command::new("blsct")
